@@ -1,7 +1,11 @@
 <template lang="pug">
   #app
-    img(src="./assets/logo.png")
     router-view
+    router-view(name="latestposts")
+    router-view(name="categories")
+    router-view(name="news")
+    router-view(name="subscribe")
+    router-view(name="footer")
 </template>
 
 <script>
@@ -13,18 +17,7 @@ export default {
 <style lang="sass">
 
 #app 
-  font-family: Hammersmith_One
-  -webkit-font-smoothing: antialiased
-  -moz-osx-font-smoothing: grayscale
-  text-align: center
-  color: #2c3e50
-  margin-top: 60px
   // must for mobile build
   width: auto
-  
-@media screen and (max-width: 400px)
-  #app
-    margin-top: 30px
-    img
-      width: 50%
+
 </style>
