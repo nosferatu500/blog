@@ -19,8 +19,6 @@
                 li: a(href="#") Subscribe
                 li: a(href="#") Purchase
     .column.is-6.is-offset-3
-      img.splash(src="../../src/assets/img/rectangle.png", alt="")
-      h1.test Hello  
       .banner    
         .columns
           .column.is-4
@@ -103,7 +101,7 @@ header
       h1
         padding: 0
         margin: 0
-        padding-top: 20px
+        padding-top: 10px
         padding-bottom: 10px
         font-size: 20px
       p
