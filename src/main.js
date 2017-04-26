@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import store from './store/store'
 
+import navbar from './components/navbar.vue'
+
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
 
@@ -14,6 +16,8 @@ Vue.config.productionTip = false
 
 import VueCordova from 'vue-cordova'
 Vue.use(VueCordova)
+
+Vue.component('navbar', navbar)
 
 /* eslint-disable no-new */
 new Vue({

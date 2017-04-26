@@ -26,7 +26,7 @@ section
     text-transform: uppercase
     font-size: 16px
   .s_item
-    background-image: url(../../src/assets/img/latestposts/banner.png)
+    background-image: url(../../../src/assets/img/latestposts/banner.png)
     background-size: cover
     text-align: center
     height: 230px

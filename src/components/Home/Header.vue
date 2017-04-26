@@ -1,28 +1,10 @@
 <template lang="pug">
   header
-    .bar_section
-      .container
-        .nav_bar
-          .columns
-            .column.is-4
-              ul
-                li: a(href="#") Home
-                li: a(href="#") News
-                li: a(href="#") Categories
-                li: a(href="#") Articles
-            .column.is-4
-              h1 Blog
-            .column.is-4
-              ul
-                li: a(href="#") About
-                li: a(href="#") Contact
-                li: a(href="#") Subscribe
-                li: a(href="#") Purchase
     .column.is-6.is-offset-3
       .banner    
         .columns
           .column.is-4
-            img(src="../../src/assets/img/avatar.jpg", alt="")
+            img(src="../../../src/assets/img/avatar.jpg", alt="")
           .column.is-8
             h1 Vitaly Shvetsov
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati error corrupti ipsa, labore? Id numquam soluta cupiditate! Doloribus ea, nisi sint, illo dicta deserunt obcaecati quasi architecto perferendis nam dolorum.
@@ -53,29 +35,9 @@ export default {
 <style lang="sass" scoped>
 
 header
-  background-image: url(../../src/assets/img/banner_header.png) 
+  background-image: url(../../../src/assets/img/banner_header.png) 
   background-size: cover
   height: 500px
-  .bar_section
-    background-image: url(../../src/assets/img/navbar_header.png)
-    background-size: cover
-    .nav_bar
-      padding-top: 25px
-      li
-        list-style-type: none
-        display: inline-block
-        padding-right: 50px
-        &:nth-child(4)
-          padding-right: 0
-        a
-          font-size: 14px
-          color: #fff
-          text-transform: uppercase
-      h1
-        text-transform: uppercase
-        text-align: center
-        font-size: 28px
-        color: #fff
   .banner
     background-color: #fff
     padding: 0 0px

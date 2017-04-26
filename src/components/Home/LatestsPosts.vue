@@ -5,22 +5,22 @@
       .columns
         .column.is-3
           .s_item
-            img(src="../../src/assets/img/latestposts/banner.png", alt="")
+            img(src="../../../src/assets/img/latestposts/banner.png", alt="")
             h1 Title
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident accusantium, ad sunt dignissimos sit nisi harum assumenda repellendus ipsam dolore sequi voluptas delectus placeat optio tempore quod voluptatibus est dolorem!
         .column.is-3
           .s_item
-            img(src="../../src/assets/img/latestposts/banner.png", alt="")
+            img(src="../../../src/assets/img/latestposts/banner.png", alt="")
             h1 Title
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident accusantium, ad sunt dignissimos sit nisi harum assumenda repellendus ipsam dolore sequi voluptas delectus placeat optio tempore quod voluptatibus est dolorem!
         .column.is-3
           .s_item
-            img(src="../../src/assets/img/latestposts/banner.png", alt="")
+            img(src="../../../src/assets/img/latestposts/banner.png", alt="")
             h1 Title
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident accusantium, ad sunt dignissimos sit nisi harum assumenda repellendus ipsam dolore sequi voluptas delectus placeat optio tempore quod voluptatibus est dolorem!
         .column.is-3
           .s_item
-            img(src="../../src/assets/img/latestposts/banner.png", alt="")
+            img(src="../../../src/assets/img/latestposts/banner.png", alt="")
             h1 Title
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident accusantium, ad sunt dignissimos sit nisi harum assumenda repellendus ipsam dolore sequi voluptas delectus placeat optio tempore quod voluptatibus est dolorem!
 </template>
