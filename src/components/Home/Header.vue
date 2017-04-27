@@ -13,22 +13,9 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
-
+  
 export default {
     name: 'hello',
-    data () {
-      return {
-        msg: 'Welcome to Your Vue-Eclipse App.',
-        msg2: 'Based on Vue.js. Created for You.'
-      }
-    },
-    computed: mapGetters({
-      modules: 'allModules'
-    }),
-    created () {
-      this.$store.dispatch('getAllModules')
-    },
     methods: {
       switchPage (path) {
         this.$router.push({ path: path })

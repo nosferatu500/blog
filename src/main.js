@@ -3,7 +3,6 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import store from './store/store'
 
 import navbar from './components/navbar.vue'
 import footer from './components/footer.vue'
@@ -25,7 +24,6 @@ Vue.component('footer-section', footer)
 new Vue({
   el: '#app',
   router,
-  store,
   template: '<App/>',
   components: { App }
 })

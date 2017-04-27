@@ -6,19 +6,32 @@
           .columns
             .column.is-4
               ul
-                li: a(href="/") Home
-                li: a(href="/news") News
-                li: a(href="/categories") Categories
-                li: a(href="/articles") Articles
+                li: a(@click="switchToPage('/')") Home
+                li: a(@click="switchToPage('/news')") News
+                li: a(@click="switchToPage('/categories')") Categories
+                li: a(@click="switchToPage('/articles')") Articles
             .column.is-4
               h1 Blog
             .column.is-4
               ul
-                li: a(href="/about") About
-                li: a(href="/contact") Contact
-                li: a(href="/subscribe") Subscribe
-                li: a(href="/purchase") Purchase
+                li: a(@click="switchToPage('/about')") About
+                li: a(@click="switchToPage('/contact')") Contact
+                li: a(@click="switchToPage('/subscribe')") Subscribe
+                li: a(@click="switchToPage('/purchase')") Purchase
 </template>
+
+<script>
+
+export default {
+
+  methods: {
+    switchToPage (path) {
+      this.$router.push({ path: path })
+    }
+  }
+}
+
+</script>
 
 <style lang="sass" scoped>
 
