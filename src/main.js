@@ -6,6 +6,7 @@ import router from './router'
 import store from './store/store'
 
 import navbar from './components/navbar.vue'
+import footer from './components/footer.vue'
 
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
@@ -18,6 +19,7 @@ import VueCordova from 'vue-cordova'
 Vue.use(VueCordova)
 
 Vue.component('navbar', navbar)
+Vue.component('footer-section', footer)
 
 /* eslint-disable no-new */
 new Vue({

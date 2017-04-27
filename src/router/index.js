@@ -5,7 +5,6 @@ import LatestsPosts from '@/components/Home/LatestsPosts'
 import Categories from '@/components/Home/Categories'
 import News from '@/components/Home/News'
 import Subscribe from '@/components/Home/Subscribe'
-import Footer from '@/components/Home/Footer'
 
 Vue.use(Router)
 
@@ -19,8 +18,7 @@ export default new Router({
         latestposts: LatestsPosts,
         categories: Categories,
         news: News,
-        subscribe: Subscribe,
-        footer: Footer
+        subscribe: Subscribe
       }
     },
     {

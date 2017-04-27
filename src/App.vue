@@ -18,7 +18,8 @@
       router-view(name="categories")
       router-view(name="news")
       router-view(name="subscribe")
-      router-view(name="footer")
+      
+    footer-section
 
     <!--News-->
       
