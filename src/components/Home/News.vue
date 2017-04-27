@@ -23,6 +23,7 @@
 
 section
   padding-top: 75px
+  padding-bottom: 85px
   h1
     text-transform: uppercase
     font-size: 16px
