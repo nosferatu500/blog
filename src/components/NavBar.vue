@@ -42,5 +42,7 @@
         text-align: center
         font-size: 28px
         color: #fff
+        line-height: 1
+        padding-bottom: 20px
 
 </style>

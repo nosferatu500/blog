@@ -8,7 +8,7 @@
           .column.is-8
             h1 Vitaly Shvetsov
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati error corrupti ipsa, labore? Id numquam soluta cupiditate! Doloribus ea, nisi sint, illo dicta deserunt obcaecati quasi architecto perferendis nam dolorum.
-            <button class="button is-primary is-outlined">Read more</button>
+            button.button.is-primary.is-outlined(@click="switchPage('/about')") Read more
 
 </template>
 
@@ -28,6 +28,11 @@ export default {
     }),
     created () {
       this.$store.dispatch('getAllModules')
+    },
+    methods: {
+      switchPage (path) {
+        this.$router.push({ path: path })
+      }
     }
 }
 </script>
